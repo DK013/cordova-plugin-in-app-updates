@@ -19,13 +19,13 @@
 			<preference name="AndroidXEnabled" value="true" />
 		</config-file>
 
-		<preference name="ANDROIDX_APPCOMPAT_VERSION" default="1.6.0" />
+		<preference name="ANDROIDX_APPCOMPAT_VERSION" default="1.5.0" />
 		<framework src="androidx.appcompat:appcompat:$ANDROIDX_APPCOMPAT_VERSION" />
 
-		<preference name="ANDROID_PLAY_CORE_VERSION" default="2.0.0" />
+		<preference name="ANDROID_PLAY_CORE_VERSION" default="1.10.3" />
 		<framework src="com.google.android.play:core:$ANDROID_PLAY_CORE_VERSION" />
 
-		<preference name="ANDROID_MATERIAL_VERSION" default="1.7.0" />
+		<preference name="ANDROID_MATERIAL_VERSION" default="1.6.1" />
 		<framework src="com.google.android.material:material:$ANDROID_MATERIAL_VERSION" />
 
 		<config-file target="res/xml/config.xml" parent="/*">
